@@ -1,0 +1,12 @@
+<html>
+<header>
+  <h1>Welcome to My Website</h1>
+</header>
+<main>
+  <p>This is the main content area.</p>
+</main>
+<footer>
+  <p>Contact us at info@example.com</p>
+</footer>
+
+</html>
