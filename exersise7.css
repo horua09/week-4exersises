@@ -1,0 +1,25 @@
+body {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#name {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+    color: #ff0000
+}
+
+h1 {
+    color: darkgray;
+    text-shadow: 0 0 10px #ff0000;
+    font-size: 50px;
+}
+
+label {
+    text-shadow: 0 0 10px darkgrey;
+    color: #ffd700
+}
+

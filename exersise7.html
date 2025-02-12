@@ -1,38 +1,70 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="exersise7.css" rel="stylesheet">
+</head>
+
 <body>
-    <form>
-        <label for="name">name:</label><br/>
-        <input type="text" id="name" name="name"><br/><br/>
-      
-        <label for="date of birth">date of birth:</label><br/>
-        <input type="date" id="d.o.b" name="d.o.b"><br/><br/>
+  <form action="http://requestbin.whapi.cloud/10x3nsh1">
+    <h1>Registration Form</h1>
+    <label for="name">name:</label><br />
+    <input type="text" id="name" name="name"><br /><br />
 
-        <label for="gender">gender:</label><br/>
-        <input type="radio" id="gender" name="gender">
-        <input type="radio" id="gender" name="gender"><br/><br/>
-        
-        <label for="profile picture">profile picture:</label><br/>
-        <input type="image" id="profile picture" name="profile picture"><br/><br/>
-      
-        <label for="email">email:</label><br/>
-        <input type="text" id="email" name="email" required><br/><br/>
-      
-        <label for="">Password:</label><br/>
-        <input type="password" id="password" name="password"><br/><br/>
-      
+    <label for="date of birth">date of birth:</label><br />
+    <input type="date" id="d.o.b" name="d.o.b"><br /><br />
 
+    <label for="gender">female</label><br />
+    <input type="radio" id="gender" name="gender"><br>
+    <label for="gender">male</label><br />
+    <input type="radio" id="gender" name="gender"><br>
 
+    <label for="profile picture">profile picture:</label><br>
+    <input type="submit" id="profile picture" name="profile picture"><br /><br />
 
-        <input type="submit" value="Submit">
-      </form>
+    <label for="email">email:</label><br />
+    <input type="text" id="email" name="email" required><br />
 
+    <label for="phone number">phone number:</label><br />
+    <input type="text" id="number" name="number" required><br />
 
+    <label for="address">address:</label><br />
+    <input type="textarea" id="address" name="address"><br />
 
+    <h2>preffered contact method</h2>
+    <label for="preffered contact method">phone</label><br />
+    <input type="radio" id="preffered-contact-method" name="preffered contact method"><br />
+    <label for="preffered contact number">email</label><br />
+    <input type="radio" id="preffered-contact-number" name="preffered contact method"><br />
+    <label for="preffered contact method">mail</label><br />
+    <input type="radio" id="preffered-contact-method" name="preffered contact method"><br />
 
+    <h2>subscribe to newsletter</h2>
+    <label for="subscribe">no</label><br />
+    <input type="radio" id="subcribe" name="subcribe to newsletter"><br />
+    <label for="subscribe">yes</label><br />
+    <input type="radio" id="subrcribe" name="subscribe to newsletter"><br />
 
+    <h2>terms and conditions</h2>
+    <label for="t-c">yes</label><br />
+    <input type="radio" id="t-c" name="terms-conditions"><br />
+    <label for="t-c">no</label><br />
+    <input type="radio" id="t-c" name="terms-conditions"><br />
 
+    <label for="username">username</label><br />
+    <input type="text" id="username" name="username" required><br />
 
+    <label for="">Password:</label><br />
+    <input type="password" id="password" name="password" required><br />
 
+    <input type="submit" value="Submit">
+  </form>
+
+  <input type="hidden" name="sender" value="horua09" />
 
 </body>
+
 </html>
